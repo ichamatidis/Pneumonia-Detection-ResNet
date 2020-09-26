@@ -1,4 +1,4 @@
-#Pneumonia detection
+# Pneumonia detection
 Finetune Resnet52 and VGG16 to detect pneumonia(viral or bacterial). The problem is tackled by splitting it into 2 subproblems, so it's tackled as 2-class problem.
 1. Helthy vs Pneumonia person, all the healty images vs all the pneumonia images(viral and bacterial)
 2. Viral pneumonia vs Bacterial pneumonia, train the model to detect if it's viral or bacterial pneumonia
